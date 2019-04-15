@@ -58,6 +58,7 @@ dsl_definitions:
     project_name: { get_input: project_name }
     auth_url: { get_input: auth_url }
     region_name: { get_input: region }
+    user_domain_name: { get_input: domain_name }
 
 node_templates:
 
